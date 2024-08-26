@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0fe4f4f6","path":"/views/vue2/observation.html","title":"响应式系统","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1694536469000,"contributors":[{"name":"lance","email":"jy381420074@163.com","commits":4}]},"filePathRelative":"views/vue2/observation.md"}');export{e as data};

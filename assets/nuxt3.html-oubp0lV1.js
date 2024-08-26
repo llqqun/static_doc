@@ -1,0 +1,20 @@
+import{_ as s,o as n,c as a,a as e}from"./app-1Fk5NupV.js";const t={},p=e(`<h1 id="nuxt3" tabindex="-1"><a class="header-anchor" href="#nuxt3" aria-hidden="true">#</a> Nuxt3</h1><h2 id="nuxt3-编译资源正确的引入css、less、sass" tabindex="-1"><a class="header-anchor" href="#nuxt3-编译资源正确的引入css、less、sass" aria-hidden="true">#</a> Nuxt3 编译资源正确的引入css、less、sass</h2><p>Nuxtjs 默认只是支持css，如需要支持less/sass等，需要自行安装对应loader。</p><p>加载css资源文件只需要在，nuxt.config.ts配置文件中添加上css配置即可：</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineNuxtConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// css</span>
+    <span class="token literal-property property">css</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;@/assets/css/index.css&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>需要使用less/sass的情况下，需要单独安装，在通过vite配置实现，实现全局引入的css实现。</p><div class="language-cmd line-numbers-mode" data-ext="cmd"><pre class="language-cmd"><code>npm install --save less less-loader
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>vite配置，nuxt.config.ts配置vite。</p><div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token function">defineNuxtConfig</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment">// css</span>
+    <span class="token literal-property property">css</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">&#39;@/assets/css/index.css&#39;</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token comment">// vite</span>
+    <span class="token literal-property property">vite</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">css</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token literal-property property">preprocessorOptions</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                <span class="token literal-property property">scss</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+                    <span class="token literal-property property">additionalData</span><span class="token operator">:</span> <span class="token string">&#39;@use &quot;@/assets/css/index.scss&quot; as *;&#39;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,9),c=[p];function i(o,l){return n(),a("div",null,c)}const u=s(t,[["render",i],["__file","nuxt3.html.vue"]]);export{u as default};

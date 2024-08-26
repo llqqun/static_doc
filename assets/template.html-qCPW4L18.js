@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5a64bc76","path":"/views/vue2/template.html","title":"模板编译","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1668526138000,"contributors":[{"name":"lance","email":"jy381420074@163.com","commits":1}]},"filePathRelative":"views/vue2/template.md"}');export{e as data};

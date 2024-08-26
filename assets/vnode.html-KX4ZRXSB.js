@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0a5b03ea","path":"/views/vue2/vnode.html","title":"虚拟 DOM","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1668526138000,"contributors":[{"name":"lance","email":"jy381420074@163.com","commits":1}]},"filePathRelative":"views/vue2/vnode.md"}');export{e as data};

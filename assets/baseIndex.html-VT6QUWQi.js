@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3d510c01","path":"/views/vue2/baseIndex.html","title":"简介","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"学习简要","slug":"学习简要","link":"#学习简要","children":[]}],"git":{"updatedTime":1690295728000,"contributors":[{"name":"lance","email":"jy381420074@163.com","commits":2}]},"filePathRelative":"views/vue2/baseIndex.md"}');export{e as data};

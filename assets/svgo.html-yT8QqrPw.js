@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-bd24489e","path":"/views/tool/svgo.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697182231000,"contributors":[{"name":"lq563683134","email":"jy381420074@163.com","commits":1}]},"filePathRelative":"views/tool/svgo.md"}');export{t as data};
