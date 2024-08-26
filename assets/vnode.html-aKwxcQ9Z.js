@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as a,b as e,d as c}from"./app-1Fk5NupV.js";const d={},n=e("h1",{id:"虚拟-dom",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#虚拟-dom","aria-hidden":"true"},"#"),c(" 虚拟 DOM")],-1),r=[n];function s(_,i){return t(),a("div",null,r)}const l=o(d,[["render",s],["__file","vnode.html.vue"]]);export{l as default};
