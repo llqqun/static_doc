@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-5694f48d","path":"/views/server/linux/","title":"Linux","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"Linux","description":"Cent OS7"},"headers":[{"level":2,"title":"常用命令","slug":"常用命令","link":"#常用命令","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"views/server/linux/index.md"}');export{e as data};
