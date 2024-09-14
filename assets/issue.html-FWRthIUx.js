@@ -1,0 +1,4 @@
+import{_ as e,o as a,c as n,a as s}from"./app-vL25MzAY.js";const i={},t=s(`<h1 id="遇到的问题" tabindex="-1"><a class="header-anchor" href="#遇到的问题" aria-hidden="true">#</a> 遇到的问题</h1><h2 id="pycharm中找不到python打包工具" tabindex="-1"><a class="header-anchor" href="#pycharm中找不到python打包工具" aria-hidden="true">#</a> PyCharm中找不到python打包工具</h2><p>python环境配置导致的问题</p><p>重新安装python环境</p><p>非环境问题:</p><p>打开CMD工具命令行输入</p><div class="language-CMD line-numbers-mode" data-ext="CMD"><pre class="language-CMD"><code>//安装python打包工具依赖包
+
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple setuptools
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,7),d=[t];function r(c,h){return a(),n("div",null,d)}const p=e(i,[["render",r],["__file","issue.html.vue"]]);export{p as default};

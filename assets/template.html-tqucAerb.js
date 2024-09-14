@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as o}from"./app-vL25MzAY.js";const r={},s=e("h1",{id:"模板编译",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#模板编译","aria-hidden":"true"},"#"),o(" 模板编译")],-1),n=[s];function _(d,l){return a(),c("div",null,n)}const h=t(r,[["render",_],["__file","template.html.vue"]]);export{h as default};
