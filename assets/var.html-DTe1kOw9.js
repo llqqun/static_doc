@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as r,b as e,d as c}from"./app-dks1XpE7.js";const o={},s=e("h1",{id:"有用的知识",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#有用的知识","aria-hidden":"true"},"#"),c(" 有用的知识")],-1),n=[s];function _(d,i){return t(),r("div",null,n)}const l=a(o,[["render",_],["__file","var.html.vue"]]);export{l as default};
