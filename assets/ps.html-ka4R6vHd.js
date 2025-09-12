@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5550e80e","path":"/views/tool/ps.html","title":"PS使用技巧","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"图片去除文字","slug":"图片去除文字","link":"#图片去除文字","children":[]}],"git":{"updatedTime":1750255449000,"contributors":[{"name":"lance L","email":"jy381420074@163.com","commits":1}]},"filePathRelative":"views/tool/ps.md"}');export{e as data};
